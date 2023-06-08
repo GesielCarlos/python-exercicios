@@ -1,0 +1,8 @@
+var = float(input("Digite uma medida em metros: "))
+print("A medida de {var} metros corresponde a:")
+print(f"{var / 1000} km")
+print(f"{var / 100} hm")
+print(f"{var / 10} dam")
+print(f"{var * 10} dm")
+print(f"{var * 100} cm")
+print(f"{var * 1000} mm")
